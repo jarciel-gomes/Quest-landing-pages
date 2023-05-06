@@ -1,0 +1,7 @@
+:root {
+     --text-body: 'Open Sans', sans-serif;
+     --text-headings:'Poppins', sans-serif;
+
+     --primary-bg: hsl(257, 40%, 49%);
+     --primary-Soft: hsl(300, 69%, 71%);
+}

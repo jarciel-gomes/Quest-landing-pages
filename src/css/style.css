@@ -1,0 +1,104 @@
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-weight: 400;
+     font-size: 1.6rem;
+     font-family: var(--text-body);
+     background: var(--primary-bg) url('../images/bg-desktop.svg') no-repeat center center;
+     background-size: cover;
+     min-height: 100vh;
+
+}
+
+.wrapper {
+     padding: 5rem;
+     max-width: 1440px;
+     display: flex;
+     flex-direction: column;
+}
+
+.header {
+     width: 100%;
+}
+
+.header img {
+     margin-bottom: 4rem;
+     max-width: 200px;
+}
+
+.main-contant {
+     display: flex;
+     width: 100%;
+}
+
+.main-container .image {
+     width: 700px;
+}
+
+.main-contant .image img {
+     width: 100%;
+}
+
+.main-contant .information {
+     padding: 4rem;
+     color: #fff;
+     max-width: 700px;
+}
+
+.main-contant .information .title {
+     font-size: 4rem;
+     font-weight: 600;
+}
+
+.main-contant .information .text {
+     margin: 3rem 0;
+     font-size: 2rem;
+     line-height: 2.5rem;
+     max-width: 600px;
+}
+
+.main-contant .information .button .btn {
+     background-color: #fff;
+     padding: 1rem 5rem;
+     border-radius: 30px;
+     font-size: 20px;
+     box-shadow: 0 0 10px #000;
+}
+
+.main-contant .information .button .btn:hover {
+     background-color: var(--primary-Soft);
+     color: #fff;
+}
+
+.footer {
+     display: flex;
+     width: 100%;
+     justify-content: flex-end;
+}
+
+.footer .social {
+     display: flex;
+     width: 100%;
+     justify-content: flex-end;
+     gap: 10px;
+}
+
+.footer .social a {
+     color: #fff;
+     background-color: var(--primary-bg);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     font-size: 2.7rem;
+     align-items: center;
+     width: 50px;
+     height: 50px;
+     border: solid 1px #fff;
+}
+
+footer .social a:hover {
+     border: solid 1px var(--primary-Soft);
+     color: var(--primary-Soft);
+}
